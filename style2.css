@@ -1,0 +1,175 @@
+:root {
+    --dot: #126069;
+    --outline: #18808c;
+    --board: #18808c;
+    --line: #15707a;
+    --p1:#063B4B; 
+    --p2: #DB3A34;
+    --p3: #E89005;
+}
+
+hr {
+    border: 2px solid var(--p3);
+    border-radius: 3px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #052b36; 
+}
+
+.container {
+    display: flex;
+    margin-bottom: -50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.scores {
+    justify-content: space-evenly;
+    font-size: larger;
+    color: white;
+}
+
+.scoreboard {
+    font-family: 'Nabla';
+    font-size: 80px;
+    line-height: 0;
+}
+
+.board {
+    margin: 100px auto;
+    width: 460px;
+    height: 460px;
+    background:var(--board);
+    position: relative;
+    outline: 20px solid var(--board);
+    z-index:0;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background:var(--dot);
+    position: absolute;
+    z-index:2;
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: var(--outline);
+}
+
+.hline {
+    width: 150px;
+    height: 10px;
+    background:var(--line);
+    position: absolute;
+    z-index:1;
+    outline-style: solid;
+    outline-width: thick;
+    outline-color:var(--outline);
+    cursor: pointer;
+}
+
+.vline {
+    width: 10px;
+    height: 150px;
+    background:var(--line);
+    position: absolute;
+    z-index:1;
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: var(--outline);
+    cursor: pointer;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background:var(--board);
+    position: absolute;
+}
+
+.activePlayer {
+    padding:5px;
+    font-weight: bold;
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: #063B4B; 
+    border-radius: 20px;
+}
+
+.retry {
+    z-index: 10;
+    position: absolute;
+    margin-top: -20px;
+    padding: 170px;
+  text-align: center;
+}
+
+.startButton {
+  background-color: var(--p1);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+   border: 10px solid var(--p2);  
+   outline: 10px solid var(--p3); 
+}
+
+.homeButton {
+  background-color: var(--p1);
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+   border: 5px solid var(--p2);  
+   outline: 5px solid var(--p3);
+}
+
+.title {
+    font-family: 'Nabla';
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+    font-size: 110px;    
+}
+
+
+.button {
+    text-align: center;
+    justify-content: center;
+}
+
+.tag {
+    text-align: center;
+    color: var(--p3);
+    line-height: 0.5;
+}
+
+.tags {
+    margin-top:-50px;
+}
+
+.hovered {
+    background-color: #3a98a2;
+}
