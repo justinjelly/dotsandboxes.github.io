@@ -110,7 +110,7 @@ function checkSquares() {
         $("#sq1").css("background-color") == BOARDCOLOR ) {
             playAgain=1;
             squaresFilled++;
-            $("#sq1").animate({backgroundColor: pickColor()}); // animate square changing color
+            $("#sq1").css("background-color", pickColor()); // animate square changing color
         }
     // square 2
     if ($("#hl2").css("background-color") != LINECOLOR &&
@@ -120,7 +120,7 @@ function checkSquares() {
         $("#sq2").css("background-color") == BOARDCOLOR ) {
             playAgain=1;
             squaresFilled++;
-            $("#sq2").animate({backgroundColor: pickColor()});
+            $("#sq2").css("background-color", pickColor());
         }
     // square 3
     if ($("#hl3").css("background-color") != LINECOLOR &&
@@ -130,7 +130,7 @@ function checkSquares() {
         $("#sq3").css("background-color") == BOARDCOLOR ) {
             playAgain=1;
             squaresFilled++;
-            $("#sq3").animate({backgroundColor: pickColor()});
+            $("#sq3").css("background-color", pickColor());
         }  
     // square 4
     if ($("#hl4").css("background-color") != LINECOLOR &&
@@ -140,7 +140,7 @@ function checkSquares() {
         $("#sq4").css("background-color") == BOARDCOLOR ) {
             playAgain=1;
             squaresFilled++;
-            $("#sq4").animate({backgroundColor: pickColor()});
+            $("#sq4").css("background-color", pickColor());
         }  
     // square 5
     if ($("#hl5").css("background-color") != LINECOLOR &&
@@ -150,7 +150,7 @@ function checkSquares() {
         $("#sq5").css("background-color") == BOARDCOLOR ) {
             playAgain=1;
             squaresFilled++;
-            $("#sq5").animate({backgroundColor: pickColor()});
+            $("#sq5").css("background-color", pickColor());
         }  
     // square 6
     if ($("#hl6").css("background-color") != LINECOLOR &&
@@ -160,7 +160,7 @@ function checkSquares() {
         $("#sq6").css("background-color") == BOARDCOLOR ) {
             playAgain=1;
             squaresFilled++;
-            $("#sq6").animate({backgroundColor: pickColor()});
+            $("#sq6").css("background-color", pickColor());
         }  
     // square 7
     if ($("#hl7").css("background-color") != LINECOLOR &&
@@ -170,7 +170,7 @@ function checkSquares() {
         $("#sq7").css("background-color") == BOARDCOLOR ) {
             playAgain=1;
             squaresFilled++;
-            $("#sq7").animate({backgroundColor: pickColor()});
+            $("#sq7").css("background-color", pickColor());
         }  
     // square 8
     if ($("#hl8").css("background-color") != LINECOLOR &&
@@ -180,7 +180,7 @@ function checkSquares() {
         $("#sq8").css("background-color") == BOARDCOLOR ) {
             playAgain=1;
             squaresFilled++;
-            $("#sq8").animate({backgroundColor: pickColor()});
+            $("#sq8").css("background-color", pickColor());
         }  
     // square 9
     if ($("#hl9").css("background-color") != LINECOLOR &&
@@ -190,7 +190,7 @@ function checkSquares() {
         $("#sq9").css("background-color") == BOARDCOLOR ) {
             playAgain=1;
             squaresFilled++;
-            $("#sq9").animate({backgroundColor: pickColor()});
+            $("#sq9").css("background-color", pickColor());
         }   
 }
 
