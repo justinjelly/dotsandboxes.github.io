@@ -130,6 +130,21 @@ body {
    outline: 10px solid var(--p3); 
 }
 
+.howButton {
+    background-color: var(--p1);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+     border: 5px solid var(--p2);  
+     outline: 5px solid var(--p3); 
+  }
+
 .homeButton {
   background-color: var(--p1);
   border: none;
