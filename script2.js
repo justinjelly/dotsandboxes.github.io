@@ -17,6 +17,11 @@ $(document).ready(function(){
     p2Score = 0;
     p3Score = 0;
 
+    // function to display alert when "how to play" button is pressed
+    $(".howButton").click(function() {
+        alert("The game starts with an empty grid of dots. 3 players take turns adding a single horizontal or vertical line between two unjoined adjacent dots. A player who completes the fourth side of a 1×1 box earns one point and takes another turn. The game ends when no more lines can be placed. The winner is the player with the most points!");
+    });
+
     $(".retry").hide(); // hiding the retart buttons (which show whent he game ends)
 
     player = 1; // start with player 1
